@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background: linear-gradient(rgb(29, 2, 55),rgb(94, 14, 148));
+    top:0;
+    height:10vh;
+    align-items: center;
+    width: screen;
+}
+.head{
+    text-align: center;
+    font-size: 8vh;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background:rgb(159, 74, 159);
+    height: 6vh;
+    align-items: center;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navlist l{
+    padding:10vh;
+    font-size: 3vh;
+}
+h2{
+    font-size: 3vh;
+}
+.sign-in{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body{
+    height: 80vh;
+    width: screen;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+}
+.start{
+    padding: 12vh;
+}
+button{
+    font-size: 6vh;
+    padding:2vh;
+    width: 40vh;
+    background:rgb(159, 74, 159);
+    border: none;
+    border-radius: 10px;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.steps{
+    padding:2vh;
+    font-size: 3vh;
+    width:60vh;
+    color:rgb(94, 14, 148)
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 0.45vh solid white;
+}
+.inputs{
+    padding: 5vh;
+
+}
+#input_text{
+    height: 80vh;
+    width: 50vh;
+    padding: 2vh;
+}
+#result{
+    height: 80vh;
+    width: 50vh;
+    padding: 2vh;
+}
